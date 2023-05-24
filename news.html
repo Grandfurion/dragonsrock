@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Dragon's Rock</title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <meta charset=utf-8>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+        <script> 
+        $(function(){
+          $("#includeHeader").load("header.html"); 
+        });
+        $(function(){
+          $("#includeFooter").load("footer.html"); 
+        });
+        </script> 
+    </head>
+
+    <body>
+        <header>
+            <div id="includeHeader" style="height: 100%;"></div>
+        </header>
+        <div class="content-container">
+    <div class="news-block-top">
+        <p class="news-title-text">News page</p>
+    </div>
+    <table class="news-table">
+<!--
+    <?php
+        $connection = mysqli_connect("localhost", "root", "")
+        or die("EEROR: CANNOT CONNECT TO MYSQL");
+        
+        mysqli_select_db($connection, "dragonsrock") or die ("ERROR: NO SUCH DB");
+        
+        $result = mysqli_query($connection, "SELECT id, title, author, date, text_preview, text, picture FROM news ORDER BY date DESC")
+        or die ("ERROR: CANNOT ACCESS THE SERVER");
+        $i = 0;
+        
+        while($object = mysqli_fetch_array($result)){
+            if($i % 2 == 0) echo "</tr><tr>";
+
+            echo "<td><div class='post-container'><img src='".$object['picture']."' class='post-image'>";
+            echo "<p class='post-bold'>".$object['title']."</p>";
+            echo "<p class='post-thin'>".$object['text_preview']."</p>";
+            echo "<table style='width:100%; position:absolute; bottom:0;'><tr><td style='width:50%'><p class='news-author'>".$object['author']."<br>".$object['date']."</p></td>";
+            echo "<td style='width:50%'><p class='news-more'>Read more...</p></div></td></tr></table>";
+            echo "</td>";
+
+            $i++;
+        }
+        ?>
+    -->
+    </table>
+
+    <!--<div class="start-button"><span class="block-bold">Show More</span></div>-->
+    <!--
+    <?php
+        if(isset($_SESSION['login'])){
+        echo "<div class='start-button'><a href='news_table.php'><span class='block-bold'>Edit Table</span></a></div>";
+        }
+    ?>
+    -->
+
+</div>
+<footer>
+    <div id="includeFooter"></div>
+</footer>
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Dragon's Rock</title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <meta charset=utf-8>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+        <script> 
+        $(function(){
+          $("#includeHeader").load("header.html"); 
+        });
+        $(function(){
+          $("#includeFooter").load("footer.html"); 
+        });
+        </script> 
+    </head>
+
+    <body>
+        <header>
+            <div id="includeHeader" style="height: 100%;"></div>
+        </header>
+        <div class="start-container">
+    <!-- <p class="news-title-text">OOPs...</p>
+     <p class="block-bold" align="center">The adventures should wait:<br>
+         Currently, the game is not working :(<br>
+         Please stay in touched via social medias
+     </p>
+
+         <a href="index.php"><div class="start-button"><p class="block-bold" align="center">Back</p></div></a> -->
+
+ <img id="mage" width="10" height="15"
+ src="images/mage.png" alt="The Mage" style="display:none">
+ <img id="mage_flipped" width="10" height="15"
+ src="images/mage_flipped.png" alt="The Mage" style="display:none">
+ <canvas id="game_canvas"></canvas>
+ <script src="platformer.js"></script>
+
+ </div>
+ <footer>
+    <div id="includeFooter"></div>
+</footer>
+</body>
+</html>

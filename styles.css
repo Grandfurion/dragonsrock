@@ -1,0 +1,362 @@
+@font-face {
+    font-family: Alegreya;
+    src: url("fonts/Alegreya-VariableFont_wght.ttf");
+}
+@font-face {
+    font-family: Alegreya-italic;
+    src: url("fonts/Alegreya-VariableFont_wght.ttf");
+}
+@font-face {
+    font-family: Alegreya-900;
+    src: url('fonts/Alegreya-Black.ttf');
+}
+@font-face {
+    font-family: Alegreya-800;
+    src: url('fonts/Alegreya-ExtraBold.ttf');
+}
+@font-face {
+    font-family: Alegreya-700;
+    src: url('fonts/Alegreya-Bold.ttf');
+}
+@font-face {
+    font-family: Alegreya-600;
+    src: url('fonts/Alegreya-SemiBold.ttf');
+}
+@font-face {
+    font-family: Alegreya-500;
+    src: url('fonts/Alegreya-Medium.ttf');
+}
+@font-face {
+    font-family: Alegreya-400;
+    src: url('fonts/Alegreya-Regular.ttf');
+}
+
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: #250407;
+}
+
+header{
+    height:80px;
+    background: linear-gradient(180deg, #F2C666 -18.19%, rgba(255, 240, 102, 0.94) 50.99%, #F6D869 81.02%, #726047 116.08%);
+}
+
+.header-container{
+    width:70%;
+    height:100%;
+    margin:auto;
+}
+
+.header-list{
+    height:100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    vertical-align: middle;
+}
+.header-list li{
+    float:left;
+    margin-left: 1%;
+    height: 100%;
+    width: 19%;
+}
+.header-text{
+    font-family: Alegreya-900;
+    color: #250407;
+    font-size: xx-large;
+    margin:auto;
+    padding-top: 15px;
+}
+.header-logo{
+    height: 80%;
+    margin-top: 10px;
+}
+
+.content-container{
+    width:70%;
+    height: 100%;
+    margin:auto;
+    background: rgba(79, 17, 14, 0.7);
+    box-shadow: 0px -10px 10px #471100;
+    margin-top: 20px;
+    padding-bottom: 50px;
+}
+.block-1{
+    background-image: url("images/block1.png");
+    background-size: cover;
+    padding-top: 20px;
+    padding-bottom:18%;
+    text-align:center;
+}
+.div-center{
+    margin:auto;
+}
+
+.title-text{
+    font-family: Alegreya-900;
+    font-size: 38px;
+    color:#FFFFFF;
+    margin: auto;
+    margin-top: 1%;
+}
+.block-bold{
+    font-family: Alegreya-800;
+    font-size: 28px;
+    color:#FFFFFF;
+    padding-right: 10%;
+    padding-left:10%;
+}
+.block-thin{
+    font-family: Alegreya-700;
+    font-size: 24px;
+    color:#FFFFFF;
+    padding-right: 10%;
+    padding-left:10%;
+}
+.start-button{
+    background: #FC580E;
+    border: 5px solid #4F110E;
+    box-sizing: border-box;
+    box-shadow: 5px 0px 10px rgba(255, 255, 255, 0.25), 0px 5px 10px rgba(255, 255, 255, 0.25), 0px -5px 10px rgba(255, 255, 255, 0.25), -5px 0px 10px rgba(255, 255, 255, 0.25);
+    border-radius: 5px;
+    width:25%;
+    margin:auto;
+    margin-top:5%;
+    margin-bottom: 5%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    text-align: center;
+}
+
+.block-2{
+    background-image: url("images/block2.png");
+    background-size: cover;
+    height: 300px;
+    margin-top: 20px;
+    padding-top: 10%;
+    padding-bottom:7%;
+    text-align:center;
+}
+.block-3{
+    background-image: url("images/block3.png");
+    background-size: cover;
+    height: 300px;
+    margin-top: 20px;
+    padding-top: 10%;
+    padding-bottom:7%;
+    text-align:center;
+}
+.block-4{
+    background-image: url("images/block4.png");
+    background-size: cover;
+    height: 300px;
+    margin-top: 20px;
+    padding-top: 10%;
+    padding-bottom:7%;
+    text-align:center;
+}
+.block-5{
+    background-image: url("images/block5.png");
+    background-size: cover;
+    height: 300px;
+    margin-top: 20px;
+    padding-top: 10%;
+    padding-bottom:7%;
+    text-align:center;
+}
+footer{
+    background-color: #F2D862;
+}
+.footer-table{
+    margin:auto;
+    width:70%;
+} 
+.footer-table td{
+    width: 33%;
+}
+
+.footer-bold{
+    font-family: Alegreya-800;
+    font-size: x-large;
+    color:#250407;
+    padding-right: 10%;
+    padding-left:10%;
+}
+.footer-thin{
+    font-family: Alegreya-700;
+    font-size: large;
+    color:#250407;
+    padding-right: 5%;
+    padding-left:5%;
+    margin-top:5px;
+    margin-bottom: 10px;
+}
+.footer-icons{
+    padding-top: 30px;
+    height: 50px;
+    padding-right: 3px;
+    padding-left: 3px;
+}
+.footer-logo{
+    padding-top:10px;
+    margin:auto;
+    width: 110px;
+    padding-right: 15%;
+}
+
+.news-block-top{
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 89.53%, #420D0C 99.85%), linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(images/news-top.png);
+    width:100%;
+    height:300px;
+    text-align: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.news-title-text{
+    font-family: Alegreya-900;
+    font-size: 38px;
+    color:#FFFFFF;
+    text-align: center;
+    padding-top: 150px;
+}
+.news-table{
+    width:96%;
+    margin-top:2%;
+    margin-right:2%;
+    margin-left: 2%;
+}
+.news-table td{
+    width:50%;
+
+}
+
+.post-container{
+    background-color: #250407;
+    filter: drop-shadow(8px 8px 12px rgba(255, 255, 255, 0.1));
+    height:500px;  /*CHANGE LATER*/
+    position: relative;
+}
+.post-image{
+    width:100%;
+    height: 300px;
+    object-fit: cover;
+}
+.post-bold{
+    font-family: Alegreya-400;
+    font-size: 26px;
+    color:#FFFFFF;
+    text-align: center;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+.post-thin{
+    font-family: Alegreya-400;
+    font-size: 20px;
+    color:#FFFFFF;
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 1px;
+    margin-left: 5%;
+}
+.news-more{
+    font-family: Alegreya-600;
+    font-size: 20px;
+    color:#ADADAD;
+    text-align: right;
+    margin-right: 5%;
+    padding-bottom: 1%;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+.news-author{
+    font-family: Alegreya-600;
+    font-size: 16px;
+    color:#ADADAD;
+    text-align: left;
+    margin-left: 2%;
+    padding-bottom: 1%;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+.forum-block-top{
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 83.67%, #420D0C 100%), linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(images/forum.png);
+    width:100%;
+    height:400px;
+    text-align: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.forum-table{
+    margin:auto; 
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.forum-table-bg{
+    background-color: #250407;
+}
+.forum-font{
+    font-family: Alegreya-500;
+    font-size: medium;
+    color:#FFFFFF;
+    margin-right: 2%;
+    margin-left:2%;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+.signup-container{
+    width:70%;
+    height: 100%;
+    margin:auto;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(images/signup-bg.png);
+    box-shadow: 0px -10px 10px #471100;
+    margin-top: 20px;
+    padding-bottom: 50px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sign-up-table{
+    font-family: Alegreya-500;
+    font-size: medium;
+    color:#FFFFFF;  
+    margin:auto;
+}
+.sign-up-form{
+    background-color: #250407;
+    color:#FFFFFF;
+    font-family: Rambla;
+}
+.signup-title{
+    font-family: Alegreya-900;
+    font-size: 38px;
+    color:#FFFFFF;
+    text-align: center;
+    padding-top: 5%;
+    margin-bottom: 5%;
+}
+
+.start-container{
+    width:70%;
+    height: 100%;
+    margin:auto;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(images/start-bg.png);
+    box-shadow: 0px -10px 10px #471100;
+    margin-top: 20px;
+    padding-bottom: 50px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#game_canvas{
+    margin-left: 3%;
+    margin-top: 3%;
+    width: 1000px;
+    height: 600px;
+}
